@@ -1,0 +1,21 @@
+name: diplodatos-mentorship
+channels:
+  - conda-forge
+  - districtdatalabs
+dependencies:
+  - pandas
+  - matplotlib
+  - statsmodels
+  - seaborn=0.11
+  - nltk
+  - keras
+  - unidecode
+  - scikit-learn
+  - tensorflow
+  - gensim
+  - yellowbrick
+  - pip
+  - pip:
+    - mlflow
+    - fasttext
+    - numpy==1.19.5
